@@ -1,0 +1,73 @@
+/* Main containers */
+.main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Left container styling */
+.left-container {
+    flex: 0 0 25%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+}
+.left-container h2 {
+    color: #6a0dad;
+}
+
+/* Right container styling */
+.right-container {
+    flex: 1;
+    padding: 20px;
+}
+.right-container h2 {
+    margin-bottom: 20px;
+}
+
+/* Grid for cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Card styling */
+.card {
+    width: 100%; /* Full width within grid */
+}
+/* Custom purple background header */
+.header {
+    background-color: #6f42c1; /* Bootstrap's purple color */
+    height: 150px; /* Adjust height as needed */
+    color: white;
+}
+
+/* Navbar customization */
+.navbar-custom {
+    background-color: transparent;
+    padding: 0;
+}
+
+/* Center and evenly space headings */
+.navbar-nav {
+    width: 100%;
+}
+.nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+/* Hover effect on nav links */
+.nav-link {
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #5a3598; /* Darker shade of purple on hover */
+    color: white;
+}
